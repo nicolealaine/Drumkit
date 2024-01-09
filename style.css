@@ -13,12 +13,17 @@ html {
     font-family: sans-serif;
 }
 
+.kit-wrapper {
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+}
+
 .keys {
+    margin-top: 20vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 50vh;
-    margin-top: 20%;
     align-items: center;
     justify-content: center;
 }
@@ -27,8 +32,8 @@ html {
     border: .4rem solid black;
     border-radius: .5rem;
     margin: 1rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
+    font-size: 3.5rem;
+    padding: 1.5rem 1.5rem;
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
@@ -37,6 +42,7 @@ html {
     text-shadow: 0 0 .5rem black;
     user-select: none;
     cursor: pointer;
+
 }
 
 .playing {
@@ -47,12 +53,14 @@ html {
 
 kbd {
     display: block;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .sound {
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+
+
 }
