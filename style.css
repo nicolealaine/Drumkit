@@ -15,7 +15,7 @@ html {
 
 .kit-wrapper {
     width: 90vw;
-    height: 100vh;
+    max-height: 100vh;
     margin: auto;
 }
 
