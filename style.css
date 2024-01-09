@@ -17,15 +17,18 @@ html {
     width: 90vw;
     max-height: 100vh;
     margin: auto;
+
 }
 
 .keys {
-    margin-top: 20vh;
+    margin-top: 40vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+
 }
 
 .key {
@@ -63,4 +66,10 @@ kbd {
     color: #ffc600;
 
 
+}
+
+@media only screen and (min-width: 800px) {
+    .keys {
+        margin-top: 20vh;
+    }
 }
